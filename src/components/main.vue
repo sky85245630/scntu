@@ -27,7 +27,6 @@
 
 <style lang="css" >
     .top{
-      margin-top:106px;
       color: white;
       height: 620px;
       width:100%;
