@@ -12,7 +12,7 @@
       <b-form-select v-model="selected" :options="options" style="width:70%"></b-form-select>
     </b-col>
 
-    <b-col style="padding: 90px 20px 0 ;">
+    <b-col style="padding: 90px 20px 40px ;">
       <iframe :src="'@/assets/'+selected+'.pdf'" style="width:100%;height:100%">
   你的瀏覽器不支援 iframe
 </iframe>
