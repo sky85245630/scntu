@@ -4,6 +4,7 @@
     <Main/>
     <PDF/>
     <Avator/>
+    <Product/>
   </div>
 
   
@@ -14,6 +15,7 @@ import Navbar from './components/navbar.vue'
 import Main from './components/main.vue'
 import PDF from './components/pdf.vue'
 import Avator from './components/avator.vue'
+import Product from './components/product.vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
@@ -24,6 +26,7 @@ export default {
     Main,
     PDF,
     Avator,
+    Product,
   }
 }
 </script>
