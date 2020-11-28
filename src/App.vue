@@ -2,9 +2,11 @@
   <div id="app">
     <Navbar/>
     <Main/>
+    <Info/>
     <PDF/>
     <Avator/>
     <Product/>
+    <Dashboard/>
   </div>
 
   
@@ -13,9 +15,12 @@
 <script>
 import Navbar from './components/navbar.vue'
 import Main from './components/main.vue'
+import Info from './components/info.vue'
 import PDF from './components/pdf.vue'
 import Avator from './components/avator.vue'
 import Product from './components/product.vue'
+import Dashboard from './components/dashboard.vue'
+
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
@@ -27,6 +32,8 @@ export default {
     PDF,
     Avator,
     Product,
+    Info,
+    Dashboard,
   }
 }
 </script>

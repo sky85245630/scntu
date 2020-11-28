@@ -33,8 +33,8 @@
     text-align: right;min-width:400px">
       
       <div style="position:relative;width:100%;height:700px">
-        <img src="@/assets/NTU4AQ_1.png" alt="main" style="width:300px;position:absolute;top:0;left:0">
-        <img src="@/assets/NTU4AQ_2.png" alt="main" style="width:700px;position:absolute;bottom:0;right:0">
+        <img src="@/assets/NTU4AQ_1.png" alt="main" style="max-width:100%;width:300px;position:absolute;top:0;left:0">
+        <img src="@/assets/NTU4AQ_2.png" alt="main" style="max-width:100%;width:700px;position:absolute;bottom:0;right:0">
 
 
       </div>
