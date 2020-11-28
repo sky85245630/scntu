@@ -28,7 +28,7 @@
 <style lang="css" >
 
 .header_fixed{
-  padding:0 60px 0 30px;position: fixed;width:100%;top: 0;
+  padding:0 60px 0 30px;position: fixed !important;width:100%;top: 0; z-index:9999
 }
     .bg-light {
     background-color: #ffffff !important;

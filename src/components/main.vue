@@ -1,14 +1,11 @@
 <template>
-<div class="top">
-  <b-row style="margin:0px">
-    <b-col>
-      <img src="@/assets/main.jpg" alt="main" style="width:680px;padding:60px 20px">
+<div class="top bgGreen">
+  <b-row>
+    <b-col class="col-12 col-lg-6">
+      <img src="@/assets/main.jpg" alt="main" class="scntuIMG">
     </b-col>
       
-    <b-col style="line-height: 2.6;
-    font-size: 18px;
-    padding: 90px 20px;
-    text-align: left;min-width:400px">
+    <b-col  class="col-12 col-lg-6 contentStyle" >
       <h1>台大系統舒適度+</h1><br>
       <span>以台北城南地區 (臺大校園與周邊社區) 為場域
       建立社區尺度的氣候論述與行動，
@@ -29,6 +26,12 @@
       color: white;
       height: 100%;
       width:100%;
-      background-color:#5fc4a9
+    }
+    .scntuIMG{
+      width:100%;
+      padding-bottom: 20px;
+    }
+    .row{
+      padding: 20px 30px;
     }
 </style>

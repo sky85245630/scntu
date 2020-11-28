@@ -1,8 +1,8 @@
 <template>
-  <div class="avator">
+  <div class="avator bgOrange">
     <b-container>
       <b-row class="avator_row" style="margin:0px;" align-h="center">
-        <b-col class="text-center" md="3">
+        <b-col class="text-center col-12 col-md-6 col-lg-4">
           <h4 class="white">計畫主持人</h4>
           <br />
           <b-avatar
@@ -15,7 +15,7 @@
           <h6 class="white">台大地理環境資源學系</h6>
         </b-col>
 
-        <b-col class="text-center" md="3">
+        <b-col class="text-center col-12 col-md-6 col-lg-4" >
           <h4 class="white">計畫共同主持人</h4>
           <br />
           <b-avatar
@@ -27,7 +27,7 @@
           <h5 class="white">JP, Chen（陳正平）</h5>
           <h6 class="white">台大大氣科學系</h6>
         </b-col>
-        <b-col class="text-center" md="3">
+        <b-col class="text-center col-12 col-md-6 col-lg-4">
           <h4 class="white">計畫共同主持人</h4>
           <br />
           <b-avatar
@@ -39,11 +39,7 @@
           <h5 class="white">LJ, Chen（陳伶志）</h5>
           <h6 class="white">中研院資訊科學研究所</h6>
         </b-col>
-      </b-row></b-container
-    >
-    <b-container>
-      <b-row class="avator_row mt-4" style="margin:0px;" align-h="center">
-        <b-col class="text-center" md="3">
+        <b-col class="text-center  col-12 col-md-6 col-lg-4">
           <h4 class="white">計畫主持人</h4>
           <br />
           <b-avatar
@@ -55,8 +51,7 @@
           <h5 class="white">Jehn-Yih, Juang（莊振義）</h5>
           <h6 class="white">台大地理環境資源學系</h6>
         </b-col>
-
-        <b-col class="text-center" md="3">
+        <b-col class="text-center  col-12 col-md-6 col-lg-4">
           <h4 class="white">計畫共同主持人</h4>
           <br />
           <b-avatar
@@ -68,7 +63,7 @@
           <h5 class="white">Yi-Huan, Hsieh（謝宜桓）</h5>
           <h6 class="white">台大氣候變遷與永續發展國際學位學程</h6>
         </b-col>
-        <b-col class="text-center" md="3">
+        <b-col class="text-center  col-12 col-md-6 col-lg-4">
           <h4 class="white">計畫共同主持人</h4>
           <br />
           <b-avatar
@@ -82,7 +77,6 @@
         </b-col>
       </b-row></b-container
     >
-
 
 <!--
     <b-container>
@@ -169,7 +163,7 @@ export default {
   color: black;
   height: 100%;
   width: 100%;
-  background-color: #dd776f;
+  
   padding: 30px 0;
 }
 .avator_row {
