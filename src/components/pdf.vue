@@ -3,19 +3,16 @@
   <b-row style="margin:0px">
     
       
-    <b-col style="line-height: 2.6;
-    font-size: 18px;
-    padding: 120px 20px;
-    text-align: center;min-width:500px;">
+    <b-col class="col-12 col-lg-6">
       <h1 style="color:#5fc4a9">研究通訊</h1><br>
       <span style="color:gray">計劃最新進展都在這裡！<br>每月月底定期發佈</span><br><br>
       <b-form-select v-model="selected" :options="options" style="width:70%"></b-form-select>
     </b-col>
 
-    <b-col style="padding: 90px 20px 40px ;">
-      <iframe :src="'@/assets/'+selected+'.pdf'" style="width:100%;height:100%">
+    <b-col class="col-12 col-lg-6 contentStyle" style="padding: 90px 20px 40px ;">
+      <!-- <iframe :src="'@/assets/'+selected+'.pdf'" style="width:100%;height:100%">
   你的瀏覽器不支援 iframe
-</iframe>
+</iframe> -->
     </b-col>
   </b-row>
 

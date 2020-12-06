@@ -48,7 +48,7 @@ export default {
   background-color:#fff
 }
 .bgGreen{
-  background-color:#5FC4A9;
+  background-color:#5ac7a8;
 }
 .bgOrange{
   background-color: #dd776f;
@@ -73,6 +73,11 @@ export default {
     font-size: 18px;
     padding: 120px 20px;
     text-align: center;
+}
+.imgBox{
+  position:relative;
+  width:100%;
+  height:700px;
 }
 @media (min-width: 0px) and (max-width: 1200px) {
   .wapper{
@@ -159,5 +164,14 @@ div[class^="detail"] ul::before{
   .scntuIMG{
     width: 100%;
   }
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  div[class^="detail"]{
+    width: 100%;
+  }
+  .imgBox{
+  
+  height:500px;
+}
 }
 </style>

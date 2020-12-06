@@ -30,6 +30,7 @@
     .scntuIMG{
       width:100%;
       padding-bottom: 20px;
+      margin-top: 60px
     }
     .row{
       padding: 20px 30px;

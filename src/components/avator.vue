@@ -77,65 +77,91 @@
         </b-col>
       </b-row></b-container
     >
-
-<!--
-    <b-container>
-      <b-row class="text-center"> 
-      <b-carousel
-      id="carousel-1"
-      :interval="4000"
-      v-model="slide"
-      controls
-      indicators
-      background="#ababab"
-      img-width="100%"
-      img-height="480"
-      style="text-shadow: 1px 1px 2px #333;"
-      @sliding-start="onSlideStart"
-      @sliding-end="onSlideEnd"
-    >
-      <b-carousel-slide
-        
-      >
-      <b-col class="text-center" cols="3">
-          <h4 class="white">計畫主持人</h4>
-          <br />
-          <b-avatar
-            class="circle"
-            src="https://placekitten.com/300/300"
-            size="10rem"
-          ></b-avatar
-          ><br /><br />
-          <h5 class="white">Jehn-Yih, Juang（莊振義）</h5>
-          <h6 class="white">台大地理環境資源學系</h6>
-        </b-col></b-carousel-slide>
-
-      <b-carousel-slide >
-        <b-col class="text-center" cols="3">
-          <h4 class="white">計畫主持人</h4>
-          <br />
-          <b-avatar
-            class="circle"
-            src="https://placekitten.com/300/300"
-            size="10rem"
-          ></b-avatar
-          ><br /><br />
-          <h5 class="white">Jehn-Yih, Juang（莊振義）</h5>
-          <h6 class="white">台大地理環境資源學系</h6>
-        </b-col>
-      </b-carousel-slide>
-
-      <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-          a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-        </p>
-      </b-carousel-slide>
-
-    </b-row>
-
-    </b-container>-->
-    
+  <div class="container">
+      <div class="mhn-slide owl-carousel">
+          <div class="mhn-item">
+              <div class="mhn-inner">
+                  <strong>工作團隊</strong>
+                  <img src="https://placekitten.com/300/300">
+                  <div class="mhn-img">
+                      <div class="loader-circle">
+                          <div class="loader-stroke-left"></div>
+                          <div class="loader-stroke-right"></div>
+                      </div>
+                  </div>
+                  <div class="mhn-text">
+                      <h4>Shao-Yuan, Liu（劉紹淵）</h4>
+                      <p>台大生物機電工程博士班</p>
+                  </div>
+              </div>
+          </div>
+          <div class="mhn-item">
+              <div class="mhn-inner">
+                  <strong>工作團隊</strong>
+                  <img class="circle" src="https://placekitten.com/300/300">
+                  <div class="mhn-img">
+                      <div class="loader-circle">
+                          <div class="loader-stroke-left"></div>
+                          <div class="loader-stroke-right"></div>
+                      </div>
+                  </div>
+                  <div class="mhn-text">
+                      <h4>Fu-Hsiang, Ching（荊輔翔）</h4>                
+                      <p>中研院資訊科學所研究助理</p>
+                  </div>
+              </div>
+          </div>
+          <div class="mhn-item">
+              <div class="mhn-inner">
+                  <strong>工作團隊</strong>
+                  <img class="circle" src="https://placekitten.com/300/300">
+                  <div class="mhn-img">
+                      <div class="loader-circle">
+                          <div class="loader-stroke-left"></div>
+                          <div class="loader-stroke-right"></div>
+                      </div>
+                  </div>
+                  <div class="mhn-text">
+                      <h4>Miao-Jung, Chien（簡妙蓉）</h4>
+                      <p>台大系統舒適度+ 計畫專案經理</p>
+                  </div>
+              </div>
+          </div>
+          <div class="mhn-item">
+              <div class="mhn-inner">
+                <strong>工作團隊</strong>
+                  <img class="circle" src="https://placekitten.com/300/300">
+                  <div class="mhn-img">
+                      <div class="loader-circle">
+                          <div class="loader-stroke-left"></div>
+                          <div class="loader-stroke-right"></div>
+                      </div>
+                  </div>
+                  <div class="mhn-text">
+                      <h4>Cheng-En, Lin</h4>
+                      <p>台大地理環境資源研究所碩士班</p>
+                  </div>
+              </div>
+          </div>
+          <div class="mhn-item">
+              <div class="mhn-inner">
+                <strong>工作團隊</strong>
+                  <img class="circle" src="https://placekitten.com/300/300">
+                  <div class="mhn-img">
+                      <div class="loader-circle">
+                          <div class="loader-stroke-left"></div>
+                          <div class="loader-stroke-right"></div>
+                      </div>
+                  </div>
+                  <div class="mhn-text">
+                      <h4>Xin, Yan（楊鑫）</h4>
+                      <p>台大氣候變遷與永續發展國際學位學程碩士班</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+ 
   </div>
 </template>
 
@@ -157,7 +183,7 @@ export default {
     }
   }
 </script>
-
+    
 <style lang="css">
 .avator {
   color: black;
@@ -169,10 +195,25 @@ export default {
 .avator_row {
   padding: 30px 0;
 }
-.white {
+.white,
+strong {
   color: white;
 }
 .circle {
   border: 10px solid #5fc4a9;
+}
+
+.mhn-slide .owl-next {
+    right: -40px;
+    margin-top: 80px;
+    border-width: 50px 0 50px 40px;
+    border-color: transparent transparent transparent #5fc4a9;
+}
+
+.mhn-slide .owl-prev {
+    left: -40px;
+    margin-top: 80px;
+    border-width: 50px 40px 50px 0;
+    border-color: transparent #5fc4a9 transparent transparent;
 }
 </style>
