@@ -1,8 +1,7 @@
 <template>
   <div class="api bgGray">
     <h1 class="textColorG">環境舒適度資料儀表板</h1>
-    <p>假字</p>
-    <p>假字</p>
+    <br />
     <b-row>
       <b-col>
         <div class="row">

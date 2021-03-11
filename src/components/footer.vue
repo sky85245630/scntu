@@ -18,10 +18,10 @@
         <img src="@/assets/main.jpg" alt="main" class="scntuIMG" />
       </div>
       <div class="col-12 col-lg-3">
-        <p>假字</p>
-        <p>假字</p>
-        <p>假字</p>
-        <p>假字</p>
+        <p>QQ</p>
+        <p>QQ</p>
+        <p>QQ</p>
+        <p>QQ</p>
       </div>
     </b-row>
   </div>
