@@ -7,18 +7,37 @@
       <b-col>
         <div class="row">
           <div class="apiBox">
-            <iframe
-              src="https://scplus.ipcs.ntu.edu.tw/portal/apps/opsdashboard/index.html"
+            <!-- <iframe
+              src="opsdashboard/index.html?fbclid=IwAR00vDi8pUseUtw3hDYn62iaOZvT5rvEiEBXBEreumWsG1ZF_ecu0sCCoQo"
               frameborder="0"
               style="width:100%;height:100%"
-            ></iframe>
+            ></iframe> -->
+            <img
+              :src="require('@/assets/ipcs.gif')"
+              alt=""
+              style="width:100%;height:100%"
+            />
           </div>
         </div>
       </b-col>
     </b-row>
-    <a class="moreBT">more</a>
+    <!-- <a class="moreBT">more</a> -->
+    <b-button variant="outline-primary" @click="toMore">more</b-button>
   </div>
 </template>
+
+<script>
+export default {
+  name: "api",
+  methods: {
+    toMore() {
+      window.open(
+        "https://scplus.ipcs.ntu.edu.tw/portal/apps/opsdashboard/index.html?fbclid=IwAR00vDi8pUseUtw3hDYn62iaOZvT5rvEiEBXBEreumWsG1ZF_ecu0sCCoQo#/0d405e50700a49989025568e75e81c52"
+      );
+    }
+  }
+};
+</script>
 
 <style lang="css">
 ul {

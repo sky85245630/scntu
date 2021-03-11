@@ -1,5 +1,5 @@
 <template>
-  <div class="avator bgOrange">
+  <div id="3" class="avator bgOrange">
     <b-container>
       <b-row class="avator_row" style="margin:0px;" align-h="center">
         <b-col class="text-center col-12 col-md-6 col-lg-4">

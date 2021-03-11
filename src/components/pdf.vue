@@ -1,5 +1,5 @@
 <template>
-  <div class="pdf">
+  <div id="2" class="pdf">
     <b-row style="margin:0px">
       <b-col class="col-12 col-lg-6 py-5">
         <h1 style="color:#5fc4a9">研究通訊</h1>
