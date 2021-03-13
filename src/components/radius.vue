@@ -21,6 +21,7 @@
             <div class="detail_1 ">
               <ul class="radiusD">
                 <li>環境物聯網建置</li>
+                <li>環境物聯網建置</li>
                 <li>微氣候地圖建置</li>
                 <li>預報資訊提供</li>
                 <li>緊急應變計畫研擬</li>
@@ -29,6 +30,7 @@
             <div class="detail_2 ">
               <ul class="radiusD">
                 <li>社區監測實做</li>
+                <li>社區監測實做</li>
                 <li>都市空污風險地圖</li>
                 <li>年度評估報告</li>
               </ul>
@@ -36,12 +38,14 @@
             <div class="detail_3">
               <ul class="radiusD">
                 <li>資料解析與探勘</li>
+                <li>資料解析與探勘</li>
                 <li>資訊服務設計與開發</li>
                 <li>地理公民科</li>
               </ul>
             </div>
             <div class="detail_4 ">
               <ul class="radiusD">
+                <li>感測設備發展</li>
                 <li>感測設備發展</li>
                 <li>即時校正模式</li>
                 <li>預報模式研擬</li>
@@ -157,9 +161,9 @@ ul {
   bottom: 300px;
 }
 .detail_3 {
-  left: 460px;
+  left: 435px;
   width: 300px;
-  bottom: 170px;
+  bottom: 155px;
 }
 .detail_4 {
   left: 500px;
