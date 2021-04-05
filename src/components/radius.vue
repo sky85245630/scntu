@@ -20,7 +20,7 @@
           <div class="Boxdetail col-xs-12">
             <div class="detail_1 ">
               <ul class="radiusD">
-                <li>環境物聯網建置</li>
+                <li class="bold">氣候服務產業</li>
                 <li>環境物聯網建置</li>
                 <li>微氣候地圖建置</li>
                 <li>預報資訊提供</li>
@@ -29,7 +29,7 @@
             </div>
             <div class="detail_2 ">
               <ul class="radiusD">
-                <li>社區監測實做</li>
+                <li class="bold">治理轉型倡議</li>
                 <li>社區監測實做</li>
                 <li>都市空污風險地圖</li>
                 <li>年度評估報告</li>
@@ -37,7 +37,7 @@
             </div>
             <div class="detail_3">
               <ul class="radiusD">
-                <li>資料解析與探勘</li>
+                <li class="bold">IPCS、環境資料監測與分析</li>
                 <li>資料解析與探勘</li>
                 <li>資訊服務設計與開發</li>
                 <li>地理公民科</li>
@@ -45,7 +45,7 @@
             </div>
             <div class="detail_4 ">
               <ul class="radiusD">
-                <li>感測設備發展</li>
+                <li class="bold">模式校正與預測</li>
                 <li>感測設備發展</li>
                 <li>即時校正模式</li>
                 <li>預報模式研擬</li>
@@ -55,7 +55,7 @@
         </div>
       </b-col>
 
-      <b-col class=" col-12 col-xl-6 col-md-12">
+      <b-col class=" col-12 col-xl-6 col-md-12 mt-4">
         <div class="row textBox">
           <h4 class="textColorG">參與式感測</h4>
           <ul>
@@ -88,6 +88,10 @@
 </template>
 
 <style lang="css">
+.bold {
+  font-weight: bold;
+  font-size: 18px;
+}
 ul {
   list-style: none;
 }

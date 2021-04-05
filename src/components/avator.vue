@@ -24,7 +24,9 @@
             size="10rem"
           ></b-avatar
           ><br /><br />
-          <h5 class="white">JP, Chen（陳正平）</h5>
+          <!-- <h5 class="white">JP, Chen（陳正平）</h5> -->
+          <h5 class="white">林承恩</h5>
+
           <h6 class="white">台大大氣科學系</h6>
         </b-col>
         <b-col class="text-center col-12 col-md-6 col-lg-4">
@@ -32,7 +34,7 @@
           <br />
           <b-avatar
             class="circle"
-            :src="require('@/assets//member/FB.png')"
+            :src="require('@/assets//member/LJ.png')"
             size="10rem"
           ></b-avatar
           ><br /><br />
@@ -48,7 +50,7 @@
             size="10rem"
           ></b-avatar
           ><br /><br />
-          <h5 class="white">Jehn-Yih, Juang（莊振義）</h5>
+          <h5 class="white">荊輔翔</h5>
           <h6 class="white">台大地理環境資源學系</h6>
         </b-col>
         <b-col class="text-center  col-12 col-md-6 col-lg-4">
@@ -60,7 +62,7 @@
             size="10rem"
           ></b-avatar
           ><br /><br />
-          <h5 class="white">Yi-Huan, Hsieh（謝宜桓）</h5>
+          <h5 class="white">Miao-Jung, Chien（簡妙蓉）</h5>
           <h6 class="white">台大氣候變遷與永續發展國際學位學程</h6>
         </b-col>
         <b-col class="text-center  col-12 col-md-6 col-lg-4">
@@ -90,7 +92,8 @@
               </div>
             </div>
             <div class="mhn-text">
-              <h4>Shao-Yuan, Liu（劉紹淵）</h4>
+              <h4>劉紹淵</h4>
+              <!-- <h4>Shao-Yuan, Liu（劉紹淵）</h4> -->
               <p>台大生物機電工程博士班</p>
             </div>
           </div>
@@ -106,7 +109,7 @@
               </div>
             </div>
             <div class="mhn-text">
-              <h4>Fu-Hsiang, Ching（荊輔翔）</h4>
+              <h4>Xin, Yan（楊鑫）</h4>
               <p>中研院資訊科學所研究助理</p>
             </div>
           </div>
@@ -154,7 +157,7 @@
               </div>
             </div>
             <div class="mhn-text">
-              <h4>Xin, Yan（楊鑫）</h4>
+              <h4>Yi-Huan, Hsieh（謝宜桓）</h4>
               <p>台大氣候變遷與永續發展國際學位學程碩士班</p>
             </div>
           </div>
