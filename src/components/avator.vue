@@ -18,15 +18,9 @@
         <b-col class="text-center col-12 col-md-6 col-lg-4">
           <h4 class="white">計畫共同主持人</h4>
           <br />
-          <b-avatar
-            class="circle"
-            :src="require('@/assets/member/CN.png')"
-            size="10rem"
-          ></b-avatar
+          <b-avatar class="circle" src="require('')" size="10rem"></b-avatar
           ><br /><br />
-          <!-- <h5 class="white">JP, Chen（陳正平）</h5> -->
-          <h5 class="white">林承恩Cheng-En, Lin</h5>
-
+          <h5 class="white">Jen-Ping, Chen（陳正平）</h5>
           <h6 class="white">台大大氣科學系</h6>
         </b-col>
         <b-col class="text-center col-12 col-md-6 col-lg-4">
@@ -38,7 +32,7 @@
             size="10rem"
           ></b-avatar
           ><br /><br />
-          <h5 class="white">LJ, Chen（陳伶志）</h5>
+          <h5 class="white">Ling-Jyh, Chen（陳伶志）</h5>
           <h6 class="white">中研院資訊科學研究所</h6>
         </b-col>
         <b-col class="text-center  col-12 col-md-6 col-lg-4">
@@ -46,11 +40,11 @@
           <br />
           <b-avatar
             class="circle"
-            :src="require('@/assets/member/FS.png')"
+            src="require('@/assets/member/FS.png')"
             size="10rem"
           ></b-avatar
           ><br /><br />
-          <h5 class="white">荊輔翔</h5>
+          <h5 class="white">Jehn-Yih, Juang（莊振義）</h5>
           <h6 class="white">台大地理環境資源學系</h6>
         </b-col>
         <b-col class="text-center  col-12 col-md-6 col-lg-4">
@@ -63,7 +57,7 @@
           ></b-avatar
           ><br /><br />
           <h5 class="white">Yi-Huan, Hsieh（謝宜桓）</h5>
-          <h6 class="white">台大氣候變遷與永續發展國際學位學程碩士班</h6>
+          <h6 class="white">台大氣候變遷與永續發展國際學位學程</h6>
         </b-col>
         <b-col class="text-center  col-12 col-md-6 col-lg-4">
           <h4 class="white">計畫共同主持人</h4>
@@ -136,7 +130,7 @@
         <div class="mhn-item">
           <div class="mhn-inner">
             <strong>工作團隊</strong>
-            <img class="circle" :src="require('')" />
+            <img class="circle" :src="require('@/assets/member/CN.png')" />
             <div class="mhn-img">
               <div class="loader-circle">
                 <div class="loader-stroke-left"></div>
@@ -144,7 +138,7 @@
               </div>
             </div>
             <div class="mhn-text">
-              <h4>Cheng-En, Lin</h4>
+              <h4>林承恩Cheng-En, Lin</h4>
               <p>台大地理環境資源研究所碩士班</p>
             </div>
           </div>

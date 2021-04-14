@@ -8,7 +8,7 @@
       <div class="col-6 col-lg-3">
         <img
           src="@/assets/vendor/123.png"
-          style="height:200px;width:200px"
+          style="height:150px"
           alt="main"
           class="scntuIMGFooter"
         />
