@@ -1,13 +1,13 @@
 <template>
   <div class="api bgGray">
-    <h1 class="textColorG">環境舒適度資料儀表板</h1>
+    <h1 class="textColorG">資料儀表板</h1>
     <br />
     <b-row>
       <b-col>
         <div class="row">
           <div class="apiBox">
             <iframe
-              src="https://scplus.ipcs.ntu.edu.tw/portal/apps/opsdashboard/index.html?fbclid=IwAR00vDi8pUseUtw3hDYn62iaOZvT5rvEiEBXBEreumWsG1ZF_ecu0sCCoQo#/0d405e50700a49989025568e75e81c52"
+              src="https://scplus.ipcs.ntu.edu.tw/portal/apps/opsdashboard/index.html#/b6627579582c42a99aa66d8cab5dfb63"
               frameborder="0"
               style="width:100%;height:100%"
             ></iframe>
@@ -31,7 +31,7 @@ export default {
   methods: {
     toMore() {
       window.open(
-        "https://scplus.ipcs.ntu.edu.tw/portal/apps/opsdashboard/index.html?fbclid=IwAR00vDi8pUseUtw3hDYn62iaOZvT5rvEiEBXBEreumWsG1ZF_ecu0sCCoQo#/0d405e50700a49989025568e75e81c52"
+        "https://scplus.ipcs.ntu.edu.tw/portal/apps/opsdashboard/index.html#/b6627579582c42a99aa66d8cab5dfb63"
       );
     }
   }
