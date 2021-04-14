@@ -40,8 +40,7 @@ export default {
           text: "Sep2020"
         },
         {
-          value:
-            "hhttps://scntc-pdf.s3-ap-southeast-1.amazonaws.com/202010.pdf",
+          value: "https://scntc-pdf.s3-ap-southeast-1.amazonaws.com/202010.pdf",
           text: "Oct2020"
         },
         {
