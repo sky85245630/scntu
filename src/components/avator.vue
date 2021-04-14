@@ -7,7 +7,7 @@
           <br />
           <b-avatar
             class="circle"
-            :src="require('@/assets//member/CH.png')"
+            :src="require('@/assets/member/CH.png')"
             size="10rem"
           ></b-avatar
           ><br /><br />
@@ -20,12 +20,12 @@
           <br />
           <b-avatar
             class="circle"
-            :src="require('@/assets//member/CN.png')"
+            :src="require('@/assets/member/CN.png')"
             size="10rem"
           ></b-avatar
           ><br /><br />
           <!-- <h5 class="white">JP, Chen（陳正平）</h5> -->
-          <h5 class="white">林承恩</h5>
+          <h5 class="white">林承恩Cheng-En, Lin</h5>
 
           <h6 class="white">台大大氣科學系</h6>
         </b-col>
@@ -34,7 +34,7 @@
           <br />
           <b-avatar
             class="circle"
-            :src="require('@/assets//member/LJ.png')"
+            :src="require('@/assets/member/LJ.png')"
             size="10rem"
           ></b-avatar
           ><br /><br />
@@ -46,7 +46,7 @@
           <br />
           <b-avatar
             class="circle"
-            :src="require('@/assets//member/FS.png')"
+            :src="require('@/assets/member/FS.png')"
             size="10rem"
           ></b-avatar
           ><br /><br />
@@ -58,19 +58,19 @@
           <br />
           <b-avatar
             class="circle"
-            :src="require('@/assets//member/MC.png')"
+            :src="require('@/assets/member/FB.png')"
             size="10rem"
           ></b-avatar
           ><br /><br />
-          <h5 class="white">Miao-Jung, Chien（簡妙蓉）</h5>
-          <h6 class="white">台大氣候變遷與永續發展國際學位學程</h6>
+          <h5 class="white">Yi-Huan, Hsieh（謝宜桓）</h5>
+          <h6 class="white">台大氣候變遷與永續發展國際學位學程碩士班</h6>
         </b-col>
         <b-col class="text-center  col-12 col-md-6 col-lg-4">
           <h4 class="white">計畫共同主持人</h4>
           <br />
           <b-avatar
             class="circle"
-            :src="require('@/assets//member/MK.png')"
+            :src="require('@/assets/member/MK.png')"
             size="10rem"
           ></b-avatar
           ><br /><br />
@@ -84,7 +84,7 @@
         <div class="mhn-item">
           <div class="mhn-inner">
             <strong>工作團隊</strong>
-            <img :src="require('@/assets//member/SY.png')" />
+            <img :src="require('@/assets/member/SY.png')" />
             <div class="mhn-img">
               <div class="loader-circle">
                 <div class="loader-stroke-left"></div>
@@ -92,16 +92,17 @@
               </div>
             </div>
             <div class="mhn-text">
-              <h4>劉紹淵</h4>
+              <h4>Shao-Yuan, Liu（劉紹淵）</h4>
               <!-- <h4>Shao-Yuan, Liu（劉紹淵）</h4> -->
               <p>台大生物機電工程博士班</p>
             </div>
           </div>
         </div>
+
         <div class="mhn-item">
           <div class="mhn-inner">
             <strong>工作團隊</strong>
-            <img class="circle" :src="require('@/assets//member/YS.png')" />
+            <img :src="require('@/assets/member/FS.png')" />
             <div class="mhn-img">
               <div class="loader-circle">
                 <div class="loader-stroke-left"></div>
@@ -109,15 +110,16 @@
               </div>
             </div>
             <div class="mhn-text">
-              <h4>Xin, Yan（楊鑫）</h4>
+              <h4>Fu-Hsiang, Ching（荊輔翔）</h4>
               <p>中研院資訊科學所研究助理</p>
             </div>
           </div>
         </div>
+
         <div class="mhn-item">
           <div class="mhn-inner">
             <strong>工作團隊</strong>
-            <img class="circle" :src="require('@/assets//member/CH.png')" />
+            <img class="circle" :src="require('@/assets/member/MC.png')" />
             <div class="mhn-img">
               <div class="loader-circle">
                 <div class="loader-stroke-left"></div>
@@ -130,10 +132,11 @@
             </div>
           </div>
         </div>
+
         <div class="mhn-item">
           <div class="mhn-inner">
             <strong>工作團隊</strong>
-            <img class="circle" :src="require('@/assets//member/CN.png')" />
+            <img class="circle" :src="require('')" />
             <div class="mhn-img">
               <div class="loader-circle">
                 <div class="loader-stroke-left"></div>
@@ -146,10 +149,11 @@
             </div>
           </div>
         </div>
+
         <div class="mhn-item">
           <div class="mhn-inner">
             <strong>工作團隊</strong>
-            <img class="circle" :src="require('@/assets//member/FB.png')" />
+            <img class="circle" :src="require('@/assets/member/YS.png')" />
             <div class="mhn-img">
               <div class="loader-circle">
                 <div class="loader-stroke-left"></div>
@@ -157,11 +161,28 @@
               </div>
             </div>
             <div class="mhn-text">
-              <h4>Yi-Huan, Hsieh（謝宜桓）</h4>
+              <h4>Xin, Yan（楊鑫）</h4>
               <p>台大氣候變遷與永續發展國際學位學程碩士班</p>
             </div>
           </div>
         </div>
+
+        <!-- <div class="mhn-item">
+          <div class="mhn-inner">
+            <strong>工作團隊</strong>
+            <img class="circle" :src="require('@/assets/member/CN.png')" />
+            <div class="mhn-img">
+              <div class="loader-circle">
+                <div class="loader-stroke-left"></div>
+                <div class="loader-stroke-right"></div>
+              </div>
+            </div>
+            <div class="mhn-text">
+              <h4>Cheng-En, Lin</h4>
+              <p>台大地理環境資源研究所碩士班</p>
+            </div>
+          </div>
+        </div> -->
       </div>
     </div>
   </div>

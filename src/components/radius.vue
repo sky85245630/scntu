@@ -55,7 +55,7 @@
         </div>
       </b-col>
 
-      <b-col class=" col-12 col-xl-6 col-md-12 mt-4">
+      <b-col class=" col-12 col-xl-6 col-md-12 mt-5">
         <div class="row textBox">
           <h4 class="textColorG">參與式感測</h4>
           <ul>
@@ -148,7 +148,7 @@ ul {
 }
 
 .detail_3 ul::before {
-  content: "資料";
+  content: "教學";
 }
 
 .detail_4 ul::before {

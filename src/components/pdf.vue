@@ -2,7 +2,7 @@
   <div id="2" class="pdf">
     <b-row style="margin:0px">
       <b-col class="col-12 col-lg-6 py-5">
-        <h1 style="color:#5fc4a9">研究通訊</h1>
+        <h1 style="color:#5fc4a9">最新消息</h1>
         <br />
         <span style="color:gray"
           >計劃最新進展都在這裡！<br />每月月底定期發佈</span
@@ -33,22 +33,23 @@
 export default {
   data() {
     return {
-      selected: "https://scntu.s3-ap-southeast-1.amazonaws.com/pdf/092020.pdf",
+      selected: "https://scntc-pdf.s3-ap-southeast-1.amazonaws.com/202009.pdf",
       options: [
         {
-          value: "https://scntu.s3-ap-southeast-1.amazonaws.com/pdf/092020.pdf",
+          value: "https://scntc-pdf.s3-ap-southeast-1.amazonaws.com/202009.pdf",
           text: "Sep2020"
         },
         {
-          value: "https://scntu.s3-ap-southeast-1.amazonaws.com/pdf/102020.pdf",
+          value:
+            "hhttps://scntc-pdf.s3-ap-southeast-1.amazonaws.com/202010.pdf",
           text: "Oct2020"
         },
         {
-          value: "https://scntu.s3-ap-southeast-1.amazonaws.com/pdf/112020.pdf",
+          value: "https://scntc-pdf.s3-ap-southeast-1.amazonaws.com/202011.pdf",
           text: "Nov2020"
         },
         {
-          value: "https://scntu.s3-ap-southeast-1.amazonaws.com/pdf/122020.pdf",
+          value: "https://scntc-pdf.s3-ap-southeast-1.amazonaws.com/202012.pdf",
           text: "Dec2020"
         }
       ]
