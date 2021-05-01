@@ -14,20 +14,58 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#1">計畫簡介</b-nav-item>
-          <b-nav-item href="#2">最新消息</b-nav-item>
-          <b-nav-item href="#3">團隊成員</b-nav-item>
-          <b-nav-item href="#4">學研成果</b-nav-item>
+          <b-nav-item href="#1">{{ $t("Navbar.title1") }}</b-nav-item>
+          <b-nav-item href="#2">{{ $t("Navbar.title2") }}</b-nav-item>
+          <b-nav-item href="#3">{{ $t("Navbar.title3") }}</b-nav-item>
+          <b-nav-item href="#4">{{ $t("Navbar.title4") }}</b-nav-item>
 
-          <b-nav-item-dropdown text="Lang" right>
-            <b-dropdown-item href="#">中文</b-dropdown-item>
-            <b-dropdown-item href="#">EN</b-dropdown-item>
-          </b-nav-item-dropdown>
+          <b-form-select
+            style="width:120px"
+            v-model="Lang"
+            :options="options"
+            @change="change"
+          ></b-form-select>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
   </div>
 </template>
+
+<script>
+// import i18n from "vue-i18n";
+// import i18n from "vue-i18n";
+import i18n from "@/main.js";
+
+export default {
+  data() {
+    return {
+      Lang: "tw",
+      options: [
+        {
+          value: "tw",
+          text: "中文"
+        },
+        {
+          value: "en",
+          text: "English"
+        }
+      ]
+    };
+  },
+  methods: {
+    change() {
+      console.log("this.lang", this.Lang);
+      console.log("tt", this.$t(`__continue`));
+      localStorage.setItem("SCNTU_LANG", this.Lang);
+      console.log("i18n.locale", i18n.locale);
+      console.log("i18n", i18n);
+      i18n.locale = this.Lang;
+      // $bus.$emit("QQ", this.Lang);
+    }
+  },
+  watch: {}
+};
+</script>
 
 <style lang="css">
 .header_fixed {

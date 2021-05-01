@@ -14,7 +14,7 @@
     "jquery": "^3.5.1",
     "owl.carousel2": "^2.2.1",
     "vue": "^2.6.12",
-    "vue-i18n": "^8.22.2"
+    "vue-i18n": "^8.24.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
