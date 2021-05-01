@@ -2,7 +2,7 @@
   <div id="2" class="pdf">
     <b-row style="margin:0px">
       <b-col class="col-12 col-lg-6 py-5">
-        <h1 style="color:#5fc4a9">最新消息</h1>
+        <h1 style="color:#5fc4a9">{{ $t("pdf.title") }}</h1>
         <br />
         <span style="color:gray"
           >計劃最新進展都在這裡！<br />每月月底定期發佈</span

@@ -9,12 +9,12 @@
     text-align: left;"
         >
           <h1>NTU4AQ</h1>
-          <li class="NTU4AQLI">由計畫團隊獨立開發</li>
-          <li class="NTU4AQLI">太陽能供電，創新的電源管理系統</li>
-          <li class="NTU4AQLI">nbioT通訊模組，遠端接收即時資料</li>
-          <li class="NTU4AQLI">具可擴充性，可追加感測模組</li>
+          <li class="NTU4AQLI">{{ $t("product.NTU4AQ1") }}</li>
+          <li class="NTU4AQLI">{{ $t("product.NTU4AQ2") }}</li>
+          <li class="NTU4AQLI">{{ $t("product.NTU4AQ3") }}</li>
+          <li class="NTU4AQLI">{{ $t("product.NTU4AQ4") }}</li>
           <li class="NTU4AQLI">
-            可量測感測項目：溫度、濕度、風速、光能、懸浮微粒、噪音
+            {{ $t("product.NTU4AQ5") }}
           </li>
           <!-- <img
             src="@/assets/QQ.png"
@@ -51,12 +51,12 @@
           <!-- 先刪掉上面屬性text-align: right; -->
           <h1>MAPS 6.0</h1>
           <li class="NTU4AQLI">
-            可量測感測項目：溫度、濕度、風速、光能、懸浮微粒、噪音
+            {{ $t("product.MAPS1") }}
           </li>
-          <li class="NTU4AQLI">wifi / nbioT / 4G 通訊模組，遠端接收即時資料</li>
-          <li class="NTU4AQLI">具可擴充性，可追加感測模組</li>
+          <li class="NTU4AQLI">{{ $t("product.MAPS2") }}</li>
+          <li class="NTU4AQLI">{{ $t("product.MAPS3") }}</li>
           <li class="NTU4AQLI">
-            可量測感測項目：溫度、濕度、懸浮微粒、揮發性有機物、二氧化碳
+            {{ $t("product.MAPS4") }}
           </li>
         </b-col>
       </b-row>

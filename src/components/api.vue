@@ -1,6 +1,6 @@
 <template>
   <div class="api bgGray">
-    <h1 class="textColorG">資料儀表板</h1>
+    <h1 class="textColorG">{{ $t("api.dashboard") }}</h1>
     <br />
     <b-row>
       <b-col>

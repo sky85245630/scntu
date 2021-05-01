@@ -30,10 +30,10 @@
         class="col-12 col-lg-6 mt-4"
         style="font-size:24px;font-weight:bold;border-left:4px #fff solid"
       >
-        <p>臺北市大安區羅斯福路四段1號</p>
-        <p>國立臺灣大學全球變遷中心 G201</p>
-        <p>+886-2-3366-5082</p>
-        <p>scplus@ntu.edu.tw</p>
+        <p>{{ $t("footer.address") }}</p>
+        <p>{{ $t("footer.section") }}</p>
+        <p>{{ $t("footer.tel") }}</p>
+        <p>{{ $t("footer.mail") }}</p>
       </div>
     </b-row>
   </div>
