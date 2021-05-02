@@ -53,22 +53,17 @@ export default {
         right_des3: "推動「感測公民」行動，邀請志工/學生在通勤過程，以移動式感測器協助蒐集環境資料",
         right_des4: "開發創客工作坊，邀請周邊的市民/社群共同製作與佈設感測器，拓展環境監測課題與量能",
 
-
         right_title2: "資料解析與再現",
         right_des5: "整合校內現有環境感測基站，建立感測數據的動靜態校準機制",
         right_des6: "結合現有學研成果，建立都市微尺度氣候模型",
         right_des7: "建構即時資訊展示系統，協助市民理解所處的環境狀況",
 
-
         right_title3: "治理公共倡議",
         right_des8: "以公民參與方式擬定因子 (公衛、社經) 及權重",
         right_des9: "建構年度性的氣候風險地圖，以作為城市氣候行動之參考",
-
-
     },
     pdf: {
         title: "最新消息",
-
     },
     avator: {
         slot1_title: "計畫主持人",
@@ -79,11 +74,6 @@ export default {
 
         slot3_title: "計畫執行顧問",
         slot3_job: "臺大氣候變遷與永續發展國際學位學程",
-
-
-
-
-
 
         slot4_title: "計畫顧問",
         slot4_job: "臺大大氣科學系",
@@ -96,11 +86,6 @@ export default {
 
         slot7_title: "計畫顧問",
         slot7_job: "中研院資訊科學研究所",
-
-
-
-
-
 
         slot8_title: "工作團隊",
         slot8_job: "台大生物機電工程博士班",
