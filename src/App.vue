@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Navbar />
+    <Navbar @setLang="toSetLang" />
     <Main />
-    <Radius />
+    <Radius :EN_CSS="Lang" />
     <PDF />
     <Avator />
     <Product />
@@ -34,6 +34,16 @@ export default {
     Product,
     Api,
     Footer
+  },
+  data() {
+    return {
+      Lang: ""
+    };
+  },
+  methods: {
+    toSetLang(e) {
+      this.Lang = e;
+    }
   }
 };
 </script>

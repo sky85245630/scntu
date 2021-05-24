@@ -18,13 +18,14 @@
           <b-nav-item href="#2">{{ $t("Navbar.title2") }}</b-nav-item>
           <b-nav-item href="#3">{{ $t("Navbar.title3") }}</b-nav-item>
           <b-nav-item href="#4">{{ $t("Navbar.title4") }}</b-nav-item>
-
-          <b-form-select
-            style="width:120px"
-            v-model="Lang"
-            :options="options"
-            @change="change"
-          ></b-form-select>
+          <li>
+            <b-form-select
+              style="width:120px"
+              v-model="Lang"
+              :options="options"
+              @change="change"
+            ></b-form-select>
+          </li>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -32,8 +33,6 @@
 </template>
 
 <script>
-// import i18n from "vue-i18n";
-// import i18n from "vue-i18n";
 import i18n from "@/main.js";
 
 export default {
@@ -54,13 +53,10 @@ export default {
   },
   methods: {
     change() {
-      console.log("this.lang", this.Lang);
-      console.log("tt", this.$t(`__continue`));
       localStorage.setItem("SCNTU_LANG", this.Lang);
-      console.log("i18n.locale", i18n.locale);
-      console.log("i18n", i18n);
       i18n.locale = this.Lang;
       // $bus.$emit("QQ", this.Lang);
+      this.$emit("setLang", this.Lang);
     }
   },
   watch: {}

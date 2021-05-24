@@ -1,9 +1,5 @@
 <template>
-  <div id="1" class="radiusBox bgOrange">
-    <!-- <h3>氣候服務產業</h3>
-    <h3>治理轉型倡議</h3>
-    <h3>IPCS、環境資料監測與分析</h3>
-    <h3>模式校正與預測</h3> -->
+  <div id="1" class="radiusBox bgOrange" :class="{ EN_CSS: EN_CSS == 'en' }">
     <h3>{{ $t("radius.title1") }}</h3>
     <h3>{{ $t("radius.title2") }}</h3>
     <h3>{{ $t("radius.title3") }}</h3>
@@ -86,6 +82,18 @@
     </b-row>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {};
+  },
+  props: {
+    EN_CSS: String
+  },
+  methods: {}
+};
+</script>
 
 <style lang="css">
 .bold {
