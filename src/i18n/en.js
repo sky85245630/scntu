@@ -23,14 +23,14 @@ export default {
         circle3: "Climate data analysis and reproduction.",
 
         social: "SOCIAL INNOVATION",
-        social_title: "SOCIAL INNOVATION",
+        social_title: "Climate Service Industry",
         social_des1: "Create the micoclimate map.",
         social_des2: "Deploy the environmental ioT system.",
         social_des3: "Provide the forecast.",
         social_des4: "Develop the emergency plan.",
 
         service: "SERVICE",
-        service_title: "SERVICE",
+        service_title: "Climate governance initiative",
         service_des1: "Communities monitoring.",
         service_des2: "Risk map of urban air pollution.",
         service_des3: "Risk map of urban air pollution.",

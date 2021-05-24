@@ -55,7 +55,6 @@ export default {
     change() {
       localStorage.setItem("SCNTU_LANG", this.Lang);
       i18n.locale = this.Lang;
-      // $bus.$emit("QQ", this.Lang);
       this.$emit("setLang", this.Lang);
     }
   },

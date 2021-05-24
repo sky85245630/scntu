@@ -72,7 +72,7 @@
             <li>{{ $t("radius.right_des6") }}</li>
             <li>{{ $t("radius.right_des7") }}</li>
           </ul>
-          <h4 class="textColorG">{{ $t("radius.right_title3") }}</h4>
+          <h4 class="textColorG asd">{{ $t("radius.right_title3") }}</h4>
           <ul>
             <li>{{ $t("radius.right_des8") }}</li>
             <li>{{ $t("radius.right_des9") }}</li>
@@ -168,19 +168,19 @@ ul {
   bottom: 370px;
 }
 .detail_2 {
-  left: 320px;
+  left: 330px;
   width: 300px;
-  bottom: 300px;
+  bottom: 250px;
 }
 .detail_3 {
-  left: 435px;
+  left: 434px;
   width: 300px;
-  bottom: 155px;
+  bottom: 88px;
 }
 .detail_4 {
-  left: 500px;
+  left: 450px;
   width: 300px;
-  bottom: 0px;
+  bottom: -80px;
 }
 div[class^="detail"] {
   position: absolute;
@@ -191,12 +191,13 @@ div[class^="detail"] ul::before {
   width: 100px;
   height: 100px;
   left: -50px;
-  top: -20px;
+  top: -5px;
   line-height: 100px;
   border-radius: 50%;
   text-align: center;
   background-color: #5fc4a9;
 }
+
 div[class^="detail"] ul li {
   text-align: left;
   padding-left: 20px;
@@ -223,5 +224,32 @@ h4 {
   border-radius: 50%;
   background-color: hsl(180deg 100% 50% / 0%);
   border: 3px solid #ffffff;
+}
+
+.EN_CSS .row {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.EN_CSS .detail_1 ul::before {
+  content: "SOCIAL";
+}
+
+.EN_CSS .detail_2 ul::before {
+  content: "SERVICE";
+}
+
+.EN_CSS .detail_3 ul::before {
+  content: "EDUCATION";
+}
+
+.EN_CSS .detail_4 ul::before {
+  content: "RESEARCH";
+}
+
+@media screen and (max-width: 1284px) {
+  .asd {
+    margin-top: 104px !important;
+  }
 }
 </style>
