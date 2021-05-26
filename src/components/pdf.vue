@@ -15,7 +15,14 @@
       </b-col>
 
       <b-col class="col-12 col-lg-6 contentStyle" style="padding: 0px 20px ;">
-        <iframe class="iframe" :src="selected">
+        <iframe
+          class="iframe"
+          :src="
+            'https://storage.googleapis.com/scplus-ntu/Newsletter/' +
+              selected +
+              '.pdf'
+          "
+        >
           你的瀏覽器不支援 iframe
         </iframe>
         <!-- <iframe class="iframe"
@@ -33,23 +40,59 @@
 export default {
   data() {
     return {
-      selected: "https://scntc-pdf.s3-ap-southeast-1.amazonaws.com/202009.pdf",
+      //預設第一個看到的pdf
+      selected: "202009_Newsletter",
+      //最新消息的下拉式選單
+      //value放自己檔案的名字
+      //text是上面顯示的字
       options: [
         {
-          value: "https://scntc-pdf.s3-ap-southeast-1.amazonaws.com/202009.pdf",
-          text: "Sep2020"
+          value: "202009_Newsletter",
+          text: "123321"
         },
         {
-          value: "https://scntc-pdf.s3-ap-southeast-1.amazonaws.com/202010.pdf",
-          text: "Oct2020"
+          value: "202010_Newsletter",
+          text: "202010_Newsletter"
         },
         {
-          value: "https://scntc-pdf.s3-ap-southeast-1.amazonaws.com/202011.pdf",
-          text: "Nov2020"
+          value: "202011_Newsletter",
+          text: "202011_Newsletter"
         },
         {
-          value: "https://scntc-pdf.s3-ap-southeast-1.amazonaws.com/202012.pdf",
-          text: "Dec2020"
+          value: "202012_Newsletter",
+          text: "202012_Newsletter"
+        },
+        {
+          value: "202101_Newsletter-Eng",
+          text: "202101_Newsletter-Eng"
+        },
+        {
+          value: "202101_Newsletter",
+          text: "202101_Newsletter"
+        },
+        {
+          value: "202102_Newsletter-Eng",
+          text: "202102_Newsletter-Eng"
+        },
+        {
+          value: "202102_Newsletter",
+          text: "202102_Newsletter"
+        },
+        {
+          value: "202103_Newsletter-Eng",
+          text: "202103_Newsletter-Eng"
+        },
+        {
+          value: "202103_Newsletter",
+          text: "202103_Newsletter"
+        },
+        {
+          value: "202104_Newsletter-Eng",
+          text: "202104_Newsletter-Eng"
+        },
+        {
+          value: "202104_Newsletter",
+          text: "202104_Newsletter"
         }
       ]
     };
