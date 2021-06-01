@@ -47,8 +47,8 @@ export default {
       //text是上面顯示的字
       options: [
         {
-          value: "202009_Newsletter",
-          text: "123321"
+          value: "202s009_Newsletter",
+          text: "202009_Newsletter"
         },
         {
           value: "202010_Newsletter",
@@ -93,6 +93,10 @@ export default {
         {
           value: "202104_Newsletter",
           text: "202104_Newsletter"
+        },
+        {
+          value: "新增的檔案名稱",
+          text: "在網頁上所顯示的名字"
         }
       ]
     };
